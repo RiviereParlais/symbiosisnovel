@@ -1,0 +1,9 @@
+<div class="flex align-center">
+  
+  {{ if and .Params.header_img }}
+    <a href="{{ .Params.img_link }}">
+      <img src="{{ .Params.header_img | relURL }}", width = 100%, alt="{{ .Params.img_credit }}", title="{{ .Params.img_credit }}"></img>
+    </a>
+  {{ end }}
+
+</div>

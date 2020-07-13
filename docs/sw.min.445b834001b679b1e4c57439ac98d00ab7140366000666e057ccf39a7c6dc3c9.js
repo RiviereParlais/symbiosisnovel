@@ -1,0 +1,1 @@
+if(navigator.serviceWorker){navigator.serviceWorker.register("/symbiosisnovel/sw.js",{scope:"/symbiosisnovel/"});}
